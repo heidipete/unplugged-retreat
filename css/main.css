@@ -112,8 +112,7 @@ header nav {
 
 header nav ul {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: space-around;
 }
 
 footer .social-icons {
@@ -135,7 +134,7 @@ footer .social-icons p {
 .hero-area {
   display: flex;
   justify-content: center;
-  align-items: center;
+  flex-flow: row wrap;
 }
 
 /* Aside */
@@ -152,7 +151,7 @@ aside {
 .features {
   display: flex;
   justify-content: center;
-  align-items: center;
+  flex-flow: row wrap;
 }
 
 .features .feature-items {
@@ -167,7 +166,6 @@ aside {
 .reviews {
   display: flex;
   justify-content: center;
-  align-items: center;
   flex-flow: row wrap;
 }
 
